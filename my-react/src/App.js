@@ -19,7 +19,7 @@ class App extends Component {
           <Button variant="contained" color="primary"> Instant Doc </Button>
             
           </a>
-          <Snackbar></Snackbar>
+          <SimpleSnackbar></SimpleSnackbar>
         </header>
       </div>
     );
