@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from '@material-ui/core/Button';
 
 class App extends Component {
   render() {
@@ -17,7 +18,8 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Roger's new reactor
+          <Button variant="contained" color="primary"> Hello World </Button>
+            
           </a>
         </header>
       </div>
