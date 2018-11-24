@@ -15,7 +15,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <Button variant="contained" color="primary"> Instant Physician </Button>
+          <Button variant="contained" color="primary"> Instant Doc </Button>
             
           </a>
         </header>
