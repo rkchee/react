@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button';
-import Snackbar from '@material-ui/core/Snackbar';
+import SimpleSnackbar from './SimpleSnackbar.js';
 
 class App extends Component {
   render() {
