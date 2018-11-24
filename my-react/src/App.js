@@ -9,16 +9,13 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-          <Button variant="contained" color="primary"> Hello World </Button>
+          <Button variant="contained" color="primary"> Instant Physician </Button>
             
           </a>
         </header>
