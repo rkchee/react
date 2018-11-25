@@ -115,6 +115,7 @@ class SpeedDials extends React.Component {
             label="Hidden"
           />
 
+        </div>
         <div className={classes.exampleWrapper}>
           <SpeedDial
             ariaLabel="SpeedDial example"
