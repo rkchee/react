@@ -10,9 +10,10 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap',
-    // padding: theme.spacing.unit / 2,
+    padding: theme.spacing.unit / 2,
     background: '#282c34',
     flexDirection: 'column',
+    align-items: 'end',
   },
   chip: {
     display: 'flex',
