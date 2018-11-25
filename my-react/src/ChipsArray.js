@@ -11,12 +11,10 @@ const styles = theme => ({
     justifyContent: 'center',
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
-    background: 'red',
+    background: '#282c34',
   },
   chip: {
-    color: 'red',
     margin: theme.spacing.unit / 2,
-    background: 'blue',
   },
 });
 
