@@ -12,7 +12,7 @@ const styles = theme => ({
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
     background: '#282c34',
-    flexDirection: 'column',
+    flexFlow: 'column wrap-reverse',
     alignItems: 'end',
   },
   chip: {
