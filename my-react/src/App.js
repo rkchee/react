@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ChipsArray color='#282c34'></ChipsArray>
+        <ChipsArray></ChipsArray>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <a

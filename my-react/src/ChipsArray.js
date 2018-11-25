@@ -56,6 +56,7 @@ class ChipsArray extends React.Component {
 
           return (
             <Chip
+              color={primary}
               key={data.key}
               icon={icon}
               label={data.label}
