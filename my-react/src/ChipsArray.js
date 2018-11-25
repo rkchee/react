@@ -15,6 +15,7 @@ const styles = theme => ({
   chip: {
     color: 'red',
     margin: theme.spacing.unit / 2,
+    background: 'primary',
   },
 });
 
