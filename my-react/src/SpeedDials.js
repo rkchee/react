@@ -103,17 +103,7 @@ class SpeedDials extends React.Component {
     return (
       <div className={classes.root}>
         <div className={classes.controls}>
-          <FormControlLabel
-            control={
-              <Switch
-                checked={hidden}
-                onChange={this.handleHiddenChange}
-                value="hidden"
-                color="primary"
-              />
-            }
-            label="Hidden"
-          />
+
 
         </div>
         <div className={classes.exampleWrapper}>
