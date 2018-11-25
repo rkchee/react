@@ -15,6 +15,7 @@ const styles = theme => ({
     flexFlow: 'column wrap-reverse',
   },
   chip: {
+    display: 'flex',
     margin: theme.spacing.unit / 2,
   },
 });
