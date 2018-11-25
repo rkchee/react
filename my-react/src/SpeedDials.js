@@ -53,7 +53,7 @@ const actions = [
   { icon: <SaveIcon />, name: 'Save' },
   { icon: <PrintIcon />, name: 'Print' },
   { icon: <ShareIcon />, name: 'Share' },
-  { icon: "60min", name: 'Delete' },
+  { icon: <p>"60min"</p>, name: 'Delete' },
 ];
 
 class SpeedDials extends React.Component {
