@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import SimpleSnackbar from './SimpleSnackbar.js';
+import SpeedDials from './SpeedDials.js'
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             
           </a>
           <SimpleSnackbar></SimpleSnackbar>
+          <SpeedDials></SpeedDials>
         </header>
       </div>
     );
