@@ -7,7 +7,6 @@ import TagFacesIcon from '@material-ui/icons/TagFaces';
 
 const styles = theme => ({
   root: {
-    background: '#282c34',
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap',
@@ -57,6 +56,7 @@ class ChipsArray extends React.Component {
 
           return (
             <Chip
+              background = "#282c34"
               key={data.key}
               icon={icon}
               label={data.label}
