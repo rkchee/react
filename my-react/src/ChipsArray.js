@@ -13,6 +13,7 @@ const styles = theme => ({
     padding: theme.spacing.unit / 2,
     background: '#282c34',
     flexDirection: 'column',
+    alignItems: 'end',
   },
   chip: {
     display: 'flex',
