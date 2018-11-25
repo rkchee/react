@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import SimpleSnackbar from './SimpleSnackbar.js';
-import SpeedDials from './SpeedDials.js'
+import SpeedDials from './SpeedDials.js';
+import ChipsArray from './ChipsArray.js';
 
 class App extends Component {
   render() {
