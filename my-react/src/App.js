@@ -22,6 +22,7 @@ class App extends Component {
           </a>
           <SimpleSnackbar></SimpleSnackbar>
           <SpeedDials></SpeedDials>
+          <ChipsArray></ChipsArray>
         </header>
       </div>
     );
