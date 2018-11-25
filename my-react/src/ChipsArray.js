@@ -16,6 +16,8 @@ const styles = theme => ({
     flex: '1',
   },
   chip: {
+    display: 'flex',
+    flex: '1',
     margin: theme.spacing.unit / 2,
   },
 });
