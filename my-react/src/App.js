@@ -9,8 +9,8 @@ import ChipsArray from './ChipsArray.js';
 class App extends Component {
   render() {
     return (
-      <ChipsArray></ChipsArray>
       <div className="App">
+        <ChipsArray></ChipsArray>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <a
