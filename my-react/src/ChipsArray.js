@@ -12,11 +12,9 @@ const styles = theme => ({
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
     background: '#282c34',
-    flexDirection: 'column',
-    alignItems: 'end',
+    flexFlow: 'column wrap-reverse',
   },
   chip: {
-    display: 'flex',
     margin: theme.spacing.unit / 2,
   },
 });
