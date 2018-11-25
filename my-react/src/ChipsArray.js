@@ -11,6 +11,7 @@ const styles = theme => ({
     justifyContent: 'center',
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
+    color: 'blue',
   },
   chip: {
     margin: theme.spacing.unit / 2,
@@ -56,7 +57,6 @@ class ChipsArray extends React.Component {
 
           return (
             <Chip
-              background = "#282c34"
               key={data.key}
               icon={icon}
               label={data.label}
