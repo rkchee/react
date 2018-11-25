@@ -8,6 +8,7 @@ import TagFacesIcon from '@material-ui/icons/TagFaces';
 const styles = theme => ({
   root: {
     display: 'flex',
+    background-color: '#282c34',
     justifyContent: 'center',
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
