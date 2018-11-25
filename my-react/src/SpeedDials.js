@@ -49,11 +49,11 @@ const styles = theme => ({
 });
 
 const actions = [
-  { icon: <FileCopyIcon />, name: 'Copy' },
-  { icon: <SaveIcon />, name: 'Save' },
-  { icon: <PrintIcon />, name: 'Print' },
-  { icon: <ShareIcon />, name: 'Share' },
-  { icon: "60min", name: 'Delete' },
+  { icon: "15m", name: 'Copy' },
+  { icon: "30m", name: 'Save' },
+  { icon: "45m", name: 'Print' },
+  { icon: "60m", name: 'Share' },
+  { icon: "75m", name: 'Delete' },
 ];
 
 class SpeedDials extends React.Component {
