@@ -58,7 +58,7 @@ const actions = [
 
 class SpeedDials extends React.Component {
   state = {
-    direction: 'up',
+    direction: 'right',
     open: false,
     hidden: false,
   };
@@ -114,21 +114,7 @@ class SpeedDials extends React.Component {
             }
             label="Hidden"
           />
-          <FormLabel component="legend">Direction</FormLabel>
-          <RadioGroup
-            aria-label="Direction"
-            name="direction"
-            className={classes.radioGroup}
-            value={direction}
-            onChange={this.handleDirectionChange}
-            row
-          >
-            <FormControlLabel value="up" control={<Radio />} label="Up" />
-            <FormControlLabel value="right" control={<Radio />} label="Right" />
-            <FormControlLabel value="down" control={<Radio />} label="Down" />
-            <FormControlLabel value="left" control={<Radio />} label="Left" />
-          </RadioGroup>
-        </div>
+
         <div className={classes.exampleWrapper}>
           <SpeedDial
             ariaLabel="SpeedDial example"
