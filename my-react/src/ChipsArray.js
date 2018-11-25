@@ -13,11 +13,10 @@ const styles = theme => ({
     padding: theme.spacing.unit / 2,
     background: '#282c34',
     flexDirection: 'column',
-    flex: '1',
+    flex: '0',
   },
   chip: {
     display: 'flex',
-    flex: '1',
     margin: theme.spacing.unit / 2,
   },
 });
