@@ -13,7 +13,7 @@ const styles = theme => ({
     padding: theme.spacing.unit / 2,
     background: '#282c34',
     flexFlow: 'column wrap-reverse',
-    alignItems: 'end',
+    alignItems: 'beginning',
   },
   chip: {
     display: 'flex',
