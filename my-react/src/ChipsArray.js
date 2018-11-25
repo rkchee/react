@@ -11,6 +11,7 @@ const styles = theme => ({
     justifyContent: 'center',
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
+    background: 'red',
   },
   chip: {
     color: 'red',
