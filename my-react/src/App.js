@@ -13,7 +13,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.chifranciscan.org/find-a-doctor/details.physician.42d59f97-e948-4914-b77a-20efd5474f49.html"
             target="_blank"
             rel="noopener noreferrer"
           >
