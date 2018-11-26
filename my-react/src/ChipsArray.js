@@ -12,8 +12,8 @@ const styles = theme => ({
     flexWrap: 'wrap',
     padding: theme.spacing.unit / 2,
     background: '#282c34',
-    flexFlow: 'column wrap-reverse',
-    alignItems: 'end',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
   },
   chip: {
     display: 'flex',
